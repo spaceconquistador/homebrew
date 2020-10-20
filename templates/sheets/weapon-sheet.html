@@ -1,0 +1,25 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
+        <h1><input name="name" type="text" value="{{item.name}}" placeholder="Name"/></h1>
+    </header>
+    <div>
+        <table>
+            <tr>
+                <th>{{localize "homebrew.attack.damage"}}</th>
+                <th>{{localize "homebrew.attack.slot"}}</th>
+            </tr>
+            <tr>
+                <td>
+                    <input name = "data.slot" type="checkbox" {{checked.data.slot}}/>
+                    <input name = "data.slot" type="checkbox" {{checked.data.slot}}/>
+                    <input name = "data.slot" type="checkbox" {{checked.data.slot}}/>
+                </td>
+            </tr>
+
+
+        </table>
+        <textarea name="data.description">{{data.description}}</textarea>
+
+    </div>
+</form>

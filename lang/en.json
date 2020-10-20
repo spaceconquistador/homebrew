@@ -1,0 +1,12 @@
+{
+    "homebrew": {
+        "attack": {
+            "damage": "Damage",
+            "slot": "Slot"
+        }
+        },
+        "armour": {
+            "defence": "Defence"
+        }
+
+}

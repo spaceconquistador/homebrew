@@ -1,12 +1,25 @@
 {
     "Actor":{},
     "Item":{
-        "types":["weapon", "armour"],
+        "types":["weapon", "armour", "consumables"],
+        "templates": {
+            "itemDescription":{
+                "description": ""
+            }
+        },
         "weapon":{
-            "damage":0,
+            "templates": ["itemDescription"],
+            "damage": 0,
             "cost": 0,
             "slot": 0,
-            "usage":0
+            "usage": 0
+        },
+        "armour": {
+            "templates": ["itemDescription"],
+            "defence": 0,
+            "cost": 0,
+            "slot": 0
         }
+
     }
 }
