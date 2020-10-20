@@ -1,0 +1,12 @@
+{
+    "Actor":{},
+    "Item":{
+        "types":["weapon", "armour"],
+        "weapon":{
+            "damage":0,
+            "cost": 0,
+            "slot": 0,
+            "usage":0
+        }
+    }
+}

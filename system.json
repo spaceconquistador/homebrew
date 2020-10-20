@@ -1,0 +1,25 @@
+{
+    "name": "homebrew",
+    "title": "Homebrew",
+    "description": "A system to learn how to create systems on Foundry",
+    "author": "spaceconquistador",
+    "version": 0.01,
+    "minimumCoreVersion": "0.6.6",
+    "compatibleCoreVersion": "0.6.6",
+    "esmodules" : [
+        "homebrew.js"
+    ],
+    "styles": [
+        "homebrew.css"
+    ],
+    "packs": [
+
+    ],
+    "languages": [
+
+    ],
+    "gridDistance": 5,
+    "gridUnits": "ft",
+    "primaryTokenAttribute": "hp",
+    "intiative": "1d6"
+}
